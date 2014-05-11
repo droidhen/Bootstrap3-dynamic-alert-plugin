@@ -1,0 +1,60 @@
+#notificationArea {
+  margin-top: auto 5px;
+  width: 560px;
+}
+#notificationArea .alert-dismissable .close {
+  positoin: absolute;
+  top: 6px;
+  right: 2px;
+  color: inherit;
+}
+.alert {
+  padding-bottom: 10px;
+  padding-top: 7px;
+  margin-bottom: 4px;
+  width: 560px;
+  min-height: 40px;
+  margin-bottom: 5px;
+  position: relative;
+  font-size: 13px;
+  text-align: left;
+}
+.alert p {
+  margin-bottom: 5px;
+  display: inline-bolock;
+  max-width: 500px;
+}
+.alert ul {
+  max-width: 500px;
+  padding-left: 47px;
+}
+.alert-icon {
+  position: absolute;
+  left: 10px;
+}
+.alert-msg {
+  padding-left: 30px;
+  padding-right: 10px;
+  margin-bottom: 0px !important;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+.alert-icon-left {
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  background-repeat: no-repeat;
+}
+.alert-success {
+  background-image: url('/img/check32.png');
+}
+.alert-warning {
+  background-image: url('/img/warning32.png');
+}
+.alert-error {
+  background-image: url('/img/error32.png');
+}
+.alert-info {
+  background-image: url('/img/info32.png');
+}
